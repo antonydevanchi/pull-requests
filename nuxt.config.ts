@@ -16,6 +16,9 @@ export default defineNuxtConfig({
   // https://hub.nuxt.com/docs/getting-started/installation#options
   hub: {
     cache: true,
+    database: true,
+    kv: true,
+    blob: true,
   },
 
   // https://eslint.nuxt.com
@@ -29,4 +32,11 @@ export default defineNuxtConfig({
 
   // https://devtools.nuxt.com
   devtools: { enabled: true },
+
+  nitro: {
+    experimental: {
+      openAPI: true
+    }
+  },
+
 })
