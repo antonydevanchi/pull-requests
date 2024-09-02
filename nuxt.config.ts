@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 
   // https://nuxt.com/modules
   modules: [
+    '@nuxthq/studio',
     '@nuxthub/core',
     '@nuxt/eslint',
     '@nuxt/ui',
