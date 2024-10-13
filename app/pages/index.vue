@@ -48,7 +48,7 @@ useSeoMeta({
       </h1>
       <p class="text-center text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
         <NuxtLink :to="userUrl" target="_blank">
-          @{{ user.username }}'s recent pull requests on GitHub.
+          @{{ user.username }}'s recent pull requests on GitHub. yfv0m0h01fivrytt
         </NuxtLink>
       </p>
       <div class="flex items-center justify-center gap-1 text-gray-700 dark:text-gray-300">
